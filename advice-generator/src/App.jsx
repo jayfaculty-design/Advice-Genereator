@@ -20,9 +20,9 @@ function App() {
       .then((response) => {
         setAdvices([response.data.slip]);
       })
-      .catch((error) => {
-        setError(error);
-        console.log(error);
+      .catch((err) => {
+        setError(err);
+        console.log(err);
       });
   }, [count]);
 
