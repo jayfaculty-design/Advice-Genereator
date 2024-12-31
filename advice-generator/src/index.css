@@ -19,3 +19,6 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+.btn:hover {
+  box-shadow: 0 0px 50px hsla(150, 100%, 66%, 0.75);
+}

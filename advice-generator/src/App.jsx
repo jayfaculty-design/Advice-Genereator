@@ -43,7 +43,7 @@ function App() {
             <img src="/images/pattern-divider-mobile.svg" alt="divider" />
             <div
               onClick={() => handleCount()}
-              className="absolute bg-neonGreen p-5 rounded-full cursor-pointer bottom-[-30px]"
+              className="btn absolute bg-neonGreen p-5 rounded-full cursor-pointer bottom-[-30px]"
             >
               <img src="/images/icon-dice.svg" alt="dice" />
             </div>
